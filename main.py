@@ -40,8 +40,8 @@ async def search(bot, update):
     results = VideosSearch(update.query, limit=50).result()
     answers = []
     
-    for result in results:
-        int_title = result["title"]
+    for result int results:
+        title = result["title"]
         views_short = result["viewCount"]["short"]
         duration = result["duration"]
         duration_text = result["accessibility"]["duration"]
