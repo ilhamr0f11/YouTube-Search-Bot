@@ -28,7 +28,8 @@ async def text(bot, update):
     await update.reply_text(
         text=text,
         reply_markup=reply_markup,
-        disable_web_page_preview=True,
+        disable_web_page_preview=False
+,
         quote=True
     )
 
