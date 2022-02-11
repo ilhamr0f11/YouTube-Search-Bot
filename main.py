@@ -41,7 +41,7 @@ async def search(bot, update):
     answers = []
     
     for result in results:
-        title = result[""]
+        title = result["title"]["title"]
         views_short = result["viewCount"]["short"]
         duration = result["duration"]
         duration_text = result["accessibility"]["duration"]
